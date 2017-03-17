@@ -6,7 +6,7 @@ User function Desafio2
 Local cVlr
 Local nCntA
 Local nCntB 
-Local nSeconds = SECONDS()
+//Local nSeconds = SECONDS()
 
 cVlr := PegaDado("Insira um Valor:")
 
@@ -22,7 +22,7 @@ NEXT
 Alert("Olhe o console!")
 
 //Exibir tempo da Function
-ConOut(SECONDS() - nSeconds)
+//ConOut((SECONDS() - nSeconds))
 
 Return
 
