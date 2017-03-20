@@ -1,15 +1,16 @@
+/*
+Faça um programa que imprima( em Tela ou no Server ) numerais de 1 a 10 "separados por virgula".
+Ex. do resultado :         1,2,3,4,5,6,7,8,9,10
+*/
+
+
 #include "TOTVS.CH"
 
 //Desafio 3 ADVPL
 User function Desaf3_1
 
-Local nSeconds := SECONDS()
-
 Alert(AddLin())
 Alert("Olhe o console!")
-
-//Exibir tempo da Function
-ConOut("Tempo = "+CVALTOCHAR(SECONDS() - nSeconds))
 Return
 
 //Function AddLin()
@@ -26,4 +27,3 @@ For nX := 1 to 10
 NEXT
 
 Return cLin
-//Fim da Function AddLin()

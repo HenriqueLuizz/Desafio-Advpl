@@ -1,3 +1,7 @@
+/*
+Seguindo a mesma linha do exercício que passei pra vcs ontem, aproveitem e faça um programa para exibir números pares e impares de 0 a 10 ok?
+*/
+
 #include "TOTVS.CH"
 
 Static nX
